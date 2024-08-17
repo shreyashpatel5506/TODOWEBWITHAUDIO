@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TO-DO</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="index.js" defer="defer"></script>
+        <script src="jquery.txt"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div class="to-do table">
+            <div id="error">Please enter valid task</div>
+            <div class="display">
+                <form action="form">
+                <input type="text" id="taskname" placeholder="Enter a task">
+            </form>
+                <button value="ADD" id="add">ADD</button>
+            </div>
+           
+                <div id="tasks"></div>
+           
+        </div>
+      </div>
+    
+      <script src =  
+      "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  
+      </script>  
+          <script src = "https://code.jquery.com/jquery-3.4.1.js"  
+                  integrity=  
+                  "sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  
+                  crossorigin="anonymous"> </script>  
+                  <audio  id="addtaskaudio" src="you add task successafull 1.wav"></audio>
+                  <audio id="edit" src="now you can edit your tas 1.wav"></audio>
+                  <audio id="complete" src="wow-you complete your tas 3.wav"></audio>
+                  <audio id="close" src="task deleted successfully 1.wav"></audio>
+    </body>
+</html>
